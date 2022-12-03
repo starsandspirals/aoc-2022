@@ -18,8 +18,7 @@
           upper   (int \A)]
     (cond
 		(>= value lower) (+ 1 (- value lower))
-		:else            (+ 27 (- value upper))
-	)))
+		:else            (+ 27 (- value upper)))))
 
 ; takes compartments/groups of rucksacks, turns them into sets (only unique elements matter),
 ; finds the element in both (or all three), gets the priority, and adds them all up!
